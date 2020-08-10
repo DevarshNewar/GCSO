@@ -6,8 +6,8 @@ function setup() {
   createCanvas(1600,400);
 
   //creating speed and weight for car
-  speed = random(50,150);
-  weight = random(300,1300);
+  speed = prompt("Enter the speed of the car :");
+  weight = prompt("Enter the weight of the car :");
 
   //creating car and wall
   car = createSprite(50, 200, 50, 50);
